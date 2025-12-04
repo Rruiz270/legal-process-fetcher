@@ -8,9 +8,10 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "nodemon server.js",
     "client": "cd client && npm start",
-    "build": "cd client && npm run build",
+    "build": "cd client && npm install && npm run build",
     "search": "node main.js",
-    "test": "node test.js"
+    "test": "node test.js",
+    "vercel-build": "cd client && npm install && npm run build"
   },
   "bin": {
     "legal-search": "./main.js"
