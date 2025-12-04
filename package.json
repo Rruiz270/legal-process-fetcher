@@ -2,12 +2,7 @@
   "name": "legal-process-fetcher",
   "version": "1.0.0",
   "description": "Comprehensive Brazilian legal process fetcher using CNJ DataJud API",
-  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "nodemon server.js",
-    "client": "cd client && npm start",
     "search": "node main.js",
     "test": "node test.js"
   },
