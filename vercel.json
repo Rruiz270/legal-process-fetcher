@@ -3,15 +3,5 @@
     "api/*.js": {
       "maxDuration": 30
     }
-  },
-  "rewrites": [
-    {
-      "source": "/api/search/all",
-      "destination": "/api/search"
-    },
-    {
-      "source": "/api/search/court-type",
-      "destination": "/api/search"
-    }
-  ]
+  }
 }
