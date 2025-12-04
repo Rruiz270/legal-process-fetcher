@@ -1,0 +1,110 @@
+.error-container {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  box-shadow: 0 4px 6px rgba(239, 68, 68, 0.1);
+}
+
+.error-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.error-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.error-text {
+  flex: 1;
+}
+
+.error-text h3 {
+  color: #dc2626;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.error-text p {
+  color: #7f1d1d;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.error-close {
+  background: none;
+  border: none;
+  color: #dc2626;
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+  flex-shrink: 0;
+}
+
+.error-close:hover {
+  background: #fecaca;
+}
+
+.error-suggestions {
+  border-top: 1px solid #fecaca;
+  padding-top: 1.5rem;
+}
+
+.error-suggestions h4 {
+  color: #b91c1c;
+  margin: 0 0 1rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.error-suggestions ul {
+  color: #7f1d1d;
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.error-suggestions li {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+.error-suggestions li:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .error-container {
+    padding: 1rem;
+    margin: 1rem;
+  }
+  
+  .error-content {
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .error-text h3 {
+    font-size: 1rem;
+  }
+  
+  .error-text p {
+    font-size: 0.875rem;
+  }
+  
+  .error-suggestions h4 {
+    font-size: 0.875rem;
+  }
+  
+  .error-suggestions li {
+    font-size: 0.8rem;
+  }
+}
