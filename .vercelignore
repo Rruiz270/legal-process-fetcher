@@ -1,0 +1,23 @@
+# Development files
+client/src
+client/public
+client/node_modules/.cache
+
+# Build artifacts  
+client/build/static/js/*.map
+client/build/static/css/*.map
+
+# Documentation
+README.md
+DEPLOYMENT.md
+
+# Tests
+test.js
+client/src/App.test.js
+client/src/setupTests.js
+
+# Local development
+.git
+.gitignore
+*.log
+exports/

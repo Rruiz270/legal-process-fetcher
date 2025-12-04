@@ -3,13 +3,10 @@
   "builds": [
     {
       "src": "server.js",
-      "use": "@vercel/node",
-      "config": {
-        "maxLambdaSize": "50mb"
-      }
+      "use": "@vercel/node"
     },
     {
-      "src": "client/package.json",
+      "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
         "distDir": "client/build"
@@ -28,5 +25,6 @@
   ],
   "env": {
     "NODE_ENV": "production"
-  }
+  },
+  "outputDirectory": "client/build"
 }
