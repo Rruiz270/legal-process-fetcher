@@ -90,3 +90,7 @@ certificate-config.json
 
 # Vercel
 .vercel
+
+# Built files in root (copied from client/build)
+/static/
+/asset-manifest.json
